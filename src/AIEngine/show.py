@@ -51,9 +51,6 @@ def show_faces(photo,bucket):
         )
         draw.line(points, fill='#00d400', width=2)
 
-        # Alternatively can draw rectangle. However you can't set line width.
-        #draw.rectangle([left,top, left + width, top + height], outline='#00d400') 
-
     image.show()
 
     return len(response['FaceDetails'])
