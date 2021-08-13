@@ -1,5 +1,6 @@
 """
 Copyright 2018 Amazon.com, Inc. or its affiliates. All Rights Reserved.
+
 PDX-License-Identifier: MIT-0 (For details, see
 https://github.com/awsdocs/amazon-rekognition-developer-guide/blob/master/LICENSE-SAMPLECODE.)
 """
@@ -9,10 +10,23 @@ from PIL import Image, ImageDraw, ExifTags, ImageColor
 
 
 class AIEngine:
+    """Define AI Engine class."""
 
     @classmethod
     def detect_labels(cls, photo, bucket, target, print_labels=False, show_boxes=False) -> bool:
+        """
+        To utilize AWS Rekognition to detect labels in the photo.
 
+        Arguments:
+            photo {str} -- required, photo name stored in AWS s3.
+            bucket {str} -- required, your unique cloud storage resource.
+            target {str} -- required, interested label to detect.
+            print_labels {bool} -- optional, to print labels detected.
+            show_boxes {bool} -- optional, show bounding box to label detected.
+        Returns:
+            res {bool} -- specified label detected or not.
+
+        """
         client = boto3.client('rekognition')
         response = client.detect_labels(Image={'S3Object':
                                         {'Bucket': bucket, 'Name': photo}},

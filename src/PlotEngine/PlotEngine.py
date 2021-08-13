@@ -9,18 +9,19 @@ photos_list = os.listdir(photos_dir)
 dog_photos = []
 cat_photos = []
 view_photos = []
-for p in photos_list: 
-    if p.startswith('x'): 
-        dog_photos.append(p) 
-    elif p.startswith('n'): 
-        cat_photos.append(p) 
-    else: 
+for p in photos_list:
+    if p.startswith('x'):
+        dog_photos.append(p)
+    elif p.startswith('n'):
+        cat_photos.append(p)
+    else:
         view_photos.append(p)
 
 cat_photos = sorted(cat_photos)
 dog_photos = sorted(dog_photos)
 view_photos = sorted(view_photos)
 new_photos_list = dog_photos + cat_photos + view_photos
+
 
 class PlotEngine:
 
