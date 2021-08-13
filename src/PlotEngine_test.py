@@ -1,3 +1,4 @@
+"""Import PlotEngine."""
 from PlotEngine import PlotEngine
 
 

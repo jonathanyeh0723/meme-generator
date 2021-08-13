@@ -1,3 +1,4 @@
+"""Import modules for data visualization."""
 import os
 import matplotlib.pyplot as plt
 import matplotlib.image as mpimg
@@ -24,9 +25,11 @@ new_photos_list = dog_photos + cat_photos + view_photos
 
 
 class PlotEngine:
+    """Define PlotEngine class."""
 
     @classmethod
     def plot(cls) -> str:
+        """To show all images used to generate meme."""
         fig = plt.figure()
         fig.set_size_inches(16, 12)
 
