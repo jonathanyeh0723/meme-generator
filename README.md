@@ -1,5 +1,6 @@
 # Meme-Generator
 The meme generator lets you create memes with established quotes and images; moreover, you can customize your own beautiful memes and share them with your friends!
+
 ![demo](./meme_generator_demo.gif)
 
 ## Overview
