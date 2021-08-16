@@ -8,6 +8,6 @@ The meme generator is a multimedia application to dynamically generate memes, in
 
 ## Block Diagram
 
-![block_diagram](./)
+![block_diagram](./2_block_diagram.jpg)
 
 ### QuoteEngine
