@@ -11,4 +11,6 @@ This [overengineering](https://en.wikipedia.org/wiki/Overengineering) solution c
 
 ![block_diagram](./2_block_diagram.jpg)
 
+ - Quote Engine: The `Quote Engine` module is responsible for ingesting many types of files that contain quotes. For our purposes, a quote contains a body and an author:
+
 ### QuoteEngine
