@@ -8,6 +8,8 @@ The meme generator is a multimedia application to dynamically generate memes, in
 
 ![overview](./1_overview.jpg)
 
+Below is a created meme inspired by one of my favorite movie, La La Land.
+
 ## Block Diagram
 This [overengineering](https://en.wikipedia.org/wiki/Overengineering) solution consists of 4 main modules – Quote Engine, Meme Engine, Plot Engine, and AI Engine.
 
