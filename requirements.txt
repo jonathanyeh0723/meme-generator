@@ -55,6 +55,7 @@ itsdangerous==2.0.1
 jedi==0.15.2
 Jinja2==3.0.1
 jmespath==0.9.4
+kazam==1.4.5
 Keras-Preprocessing==1.1.2
 keyring==18.0.1
 kiwisolver==1.3.1
