@@ -53,3 +53,13 @@ This module will be composed of many classes. The complex inheritance, abstract 
 
 ## Setting up the environment
 
+### Build
+
+### Test
+
+### Deploy
+
+## Pipeline
+
+## Resources
+
