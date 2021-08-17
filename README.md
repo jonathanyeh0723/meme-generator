@@ -41,3 +41,8 @@ This module will be composed of many classes. The complex inheritance, abstract 
 
 0 directories, 8 files
 ```
+
+- __init__.py: To make Python treat directories containing it as modules.
+
+## Setting up the environment
+
