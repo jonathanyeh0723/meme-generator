@@ -26,3 +26,18 @@ This [overengineering](https://en.wikipedia.org/wiki/Overengineering) solution c
 
 ### QuoteEngine
 This module will be composed of many classes. The complex inheritance, abstract classes, classmethods, strategy objects and other fundamental programming principles of Python are used to complete this module.
+
+### Structure of Quote Engine
+```
+.
+├── CSVImporter.py
+├── DocxImporter.py
+├── IngestorInterface.py
+├── Ingestor.py
+├── __init__.py
+├── PDFImporter.py
+├── QuoteModel.py
+└── TXTImporter.py
+
+0 directories, 8 files
+```
