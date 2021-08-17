@@ -45,6 +45,7 @@ This module will be composed of many classes. The complex inheritance, abstract 
 - `__init__.py`: To make Python treat directories containing it as modules. Furthermore, this is the first file to be loaded in a module, so you can use it to execute code that you want to run each time a module is loaded, or specify the submodules to be exported.
 - `QuoteModel.py`: Blueprint for quote.
 - `IngestorInterface.py`: The ingestor interface backbone. It is a abstract base class works as a parent class for DocxImporter.py, CSVImporter.py, TXTImporter.py, PDFImporter.py, and Ingestor.py.
+  - `DocxImporter.py`: Child class of IngestorInterface to ingest 'docx' file extension.
 
 
 
