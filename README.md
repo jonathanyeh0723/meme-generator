@@ -46,8 +46,10 @@ This module will be composed of many classes. The complex inheritance, abstract 
 - `QuoteModel.py`: Blueprint for quote.
 - `IngestorInterface.py`: The ingestor interface backbone. It is a abstract base class works as a parent class for DocxImporter.py, CSVImporter.py, TXTImporter.py, PDFImporter.py, and Ingestor.py.
 - `DocxImporter.py`: Child class of IngestorInterface to ingest 'docx' file extension.
-
-
+- `CSVImporter.py`: Child class of IngestorInterface to ingest 'csv' file extension.
+- `TXTImporter.py`: Child class of IngestorInterface to ingest 'txt' file extension.
+- `PDFImporter.py`: Child class of IngestorInterface to ingest 'pdf' file extension.
+- `Ingestor.py`: Child class of IngestorInterface to implement logic to select the appropriate helper for a given file based on filetype.
 
 ## Setting up the environment
 
