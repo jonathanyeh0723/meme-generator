@@ -25,3 +25,4 @@ This [overengineering](https://en.wikipedia.org/wiki/Overengineering) solution c
  - **Quote Engine**: The `Quote Engine` module is responsible for ingesting many types of files that contain quotes. For the sake of image maker with text purposes, a *quote* contains a *body* and an *author*.
 
 ### QuoteEngine
+This module will be composed of many classes. The complex inheritance, abstract classes, classmethods, strategy objects and other fundamental programming principles of Python are used to complete this module.
