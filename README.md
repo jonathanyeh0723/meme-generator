@@ -22,7 +22,7 @@ This [overengineering](https://en.wikipedia.org/wiki/Overengineering) solution c
 
 ![block_diagram](./2_block_diagram.jpg)
 
- - **Quote Engine**: The `Quote Engine` module is responsible for ingesting many types of files that contain quotes. For the sake of image maker with text purposes, a *quote* contains a *body* and an *author*.
+ - **Quote Engine**: The `Quote Engine` module is responsible for ingesting many types of files that contain quotes. For the sake of image maker with text, a *quote* contains a *body* and an *author*.
  - **Meme Engine**: The `Meme Engine` module is responsible for manipulating and drawing text onto images. The object-oriented thinking is applied to demonstrate knowledge of using more advanced third party library for image manipulation.
 
 ## QuoteEngine
