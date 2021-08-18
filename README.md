@@ -53,6 +53,19 @@ This module will be composed of many classes. The complex inheritance, abstract 
 - `Ingestor.py`: Child class of `IngestorInterface` to implement logic to select the appropriate helper for a given file based on filetype.
 
 ## Meme Engine
+The meme engine module is used for image manipulation. It is used to generate image with resized width and height, and put text onto it.
+
+### Structure of Meme Engine
+```
+.
+├── fonts
+│   ├── LilitaOne-Regular-1.ttf
+│   └── LilitaOne-Regular-2.ttf
+├── __init__.py
+└── MemeGenerator.py
+
+1 directory, 4 files
+```
 
 ## Setting up the environment
 
