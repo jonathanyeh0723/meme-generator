@@ -53,7 +53,7 @@ This module will be composed of many classes. The complex inheritance, abstract 
 - `Ingestor.py`: Child class of `IngestorInterface` to implement logic to select the appropriate helper for a given file based on filetype.
 
 ## Meme Engine
-The meme engine module is used for image manipulation. It is used to generate image with resized width and height, and put text onto it.
+The meme engine module is used for image manipulation. The purpose is to generate image with resized width and height, and put text onto it.
 
 ### Structure of Meme Engine
 ```
@@ -68,6 +68,10 @@ The meme engine module is used for image manipulation. It is used to generate im
 ```
 
  - `__init__.py`: Lets the Python know that a directory contains code for a Python module.
+ - `MemeGenerator.py`: Define MemeGenerator class to manipulate image.
+ - `fonts`: A directory contains 2 font templates.
+
+## Plot Engine
 
 ## Setting up the environment
 
