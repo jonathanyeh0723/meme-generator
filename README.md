@@ -67,7 +67,7 @@ The meme engine module is used for image manipulation. It is used to generate im
 1 directory, 4 files
 ```
 
- -`__init__.py`: Lets the Python know that a directory contains code for a Python module.
+ - `__init__.py`: Lets the Python know that a directory contains code for a Python module.
 
 ## Setting up the environment
 
