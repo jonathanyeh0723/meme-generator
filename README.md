@@ -82,13 +82,12 @@ Plot Engine is an individually special module. We can perform data visualization
 ```
 .
 ├── __init__.py
-├── PlotEngine.py
-└── __pycache__
-    ├── __init__.cpython-38.pyc
-    └── PlotEngine.cpython-38.pyc
+└── PlotEngine.py
 
-1 directory, 4 files
+0 directories, 2 files
 ```
+ - `__init__.py`: To let the Python interpreter know that a directory contains code for a Python module.
+ - `PlotEngine.py`: Define PlotEngine class to.
 
 ## Setting up the environment
 
