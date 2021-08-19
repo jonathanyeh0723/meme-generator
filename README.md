@@ -23,7 +23,8 @@ This [overengineering](https://en.wikipedia.org/wiki/Overengineering) solution c
 ![block_diagram](./2_block_diagram.jpg)
 
  - **Quote Engine**: The `Quote Engine` module is responsible for ingesting many types of files that contain quotes. For the sake of image maker with text, a *quote* contains a *body* and an *author*.
- - **Meme Engine**: The `Meme Engine` module is responsible for manipulating and drawing text onto images. The object-oriented thinking is applied to demonstrate knowledge of using more advanced third party library for image manipulation.
+ - **Meme Engine**: The `Meme Engine` is responsible for manipulating and drawing text onto images. The object-oriented thinking is applied to demonstrate knowledge of using more advanced third party library for image manipulation.
+ - **Plot Engine**: The `Plot Engine` module is responsible for data visualization for all images contained in this program.
 
 ## QuoteEngine
 This module will be composed of many classes. The complex inheritance, abstract classes, classmethods, strategy objects and other fundamental programming principles of Python are used to complete this module.
@@ -67,11 +68,12 @@ The meme engine module is used for image manipulation. The purpose is to generat
 1 directory, 4 files
 ```
 
- - `__init__.py`: Lets the Python know that a directory contains code for a Python module.
+ - `__init__.py`: Special file that declares that a directory is a Python module. .
  - `MemeGenerator.py`: Define MemeGenerator class to manipulate image.
  - `fonts`: A directory contains 2 font templates.
 
 ## Plot Engine
+Plot Engine is an individually special module. We can perform data visualization through this module to view all images included in this application. It will help us to have an overall picture of the photos used to generate random meme. In addition, we can check each image path based on AWS S3 printed on plotted figure as well.
 
 ## Setting up the environment
 
