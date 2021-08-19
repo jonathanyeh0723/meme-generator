@@ -87,7 +87,7 @@ Plot Engine is an individually special module. We can perform data visualization
 0 directories, 2 files
 ```
  - `__init__.py`: To let the Python interpreter know that a directory contains code for a Python module.
- - `PlotEngine.py`: Define PlotEngine class to.
+ - `PlotEngine.py`: Define PlotEngine class to conduct data visualization.
 
 ## Setting up the environment
 
