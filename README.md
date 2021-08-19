@@ -25,6 +25,9 @@ This [overengineering](https://en.wikipedia.org/wiki/Overengineering) solution c
  - **Quote Engine**: The `Quote Engine` module is responsible for ingesting many types of files that contain quotes. For the sake of image maker with text, a *quote* contains a *body* and an *author*.
  - **Meme Engine**: The `Meme Engine` is responsible for manipulating and drawing text onto images. The object-oriented thinking is applied to demonstrate knowledge of using more advanced third party library for image manipulation.
  - **Plot Engine**: The `Plot Engine` module is responsible for data visualization for all images contained in this program.
+ - **AI Engine**:
+ - **Meme App**
+ - **Meme Generator**:
 
 ## QuoteEngine
 This module will be composed of many classes. The complex inheritance, abstract classes, classmethods, strategy objects and other fundamental programming principles of Python are used to complete this module.
