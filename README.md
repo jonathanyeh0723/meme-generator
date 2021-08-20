@@ -12,8 +12,8 @@ The meme generator lets you create memes with established quotes and images; mor
 The meme generator is a multimedia application to dynamically generate memes, including an image with an overlaid quote. 
 
 This packaged applications can be accessed in 2 ways. 
- - Command-line
- - web service
+ - Command-Line
+ - Web Service
 
 Not only we can generate random memes by command-line utility, but also we can interact with web interface, where you can generate random memes at the click of a button, or make your app accept user input through a post request.
 
@@ -29,6 +29,7 @@ This [overengineering](https://en.wikipedia.org/wiki/Overengineering) solution c
 ![block_diagram](./2_block_diagram.jpg)
 
  - **Quote Engine**: The `Quote Engine` module is responsible for ingesting many types of files that contain quotes. For the sake of image maker with text, a *quote* contains a *body* and an *author*.
+
  - **Meme Engine**: The `Meme Engine` is responsible for manipulating and drawing text onto images. The object-oriented thinking is applied to demonstrate knowledge of using more advanced third party library for image manipulation.
  - **Plot Engine**: The `Plot Engine` module is responsible for data visualization for all the images contained in this program.
  - **AI Engine**: The `AI Engine` is responsible for object detection. It leverage [Amazon Rekognition](https://aws.amazon.com/rekognition/?nc1=h_ls&blog-cards.sort-by=item.additionalFields.createdDate&blog-cards.sort-order=desc) to identify the image content and define rules to choose the quote category.
