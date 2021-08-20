@@ -25,7 +25,7 @@ This [overengineering](https://en.wikipedia.org/wiki/Overengineering) solution c
  - **Quote Engine**: The `Quote Engine` module is responsible for ingesting many types of files that contain quotes. For the sake of image maker with text, a *quote* contains a *body* and an *author*.
  - **Meme Engine**: The `Meme Engine` is responsible for manipulating and drawing text onto images. The object-oriented thinking is applied to demonstrate knowledge of using more advanced third party library for image manipulation.
  - **Plot Engine**: The `Plot Engine` module is responsible for data visualization for all the images contained in this program.
- - **AI Engine**:
+ - **AI Engine**: The `AI Engine` is responsible for object detection. It leverage [Amazon Rekognition](https://aws.amazon.com/rekognition/?nc1=h_ls&blog-cards.sort-by=item.additionalFields.createdDate&blog-cards.sort-order=desc) to identify the image content and define rules to choose the quote category.
  - **Meme App**
  - **Meme Generator**:
 
