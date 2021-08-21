@@ -86,7 +86,7 @@ The meme engine module is used for image manipulation. The purpose is to generat
  - `fonts`: A directory contains 2 font templates.
 
 ## Plot Engine
-Plot Engine is an individually special module. We can perform data visualization through this module to view all images included in this application. It will help us to have an overall picture of the photos used to generate random meme. In addition, we can check each image path based on [Amazon S3 (Simple Storage Service)](https://aws.amazon.com/s3/) printed on plotted figure as well.
+Plot Engine is an individually special module. We can perform data visualization by using [matplotlib](https://matplotlib.org/) to view all images included in this application. It will help us to have an overall picture of the photos used to generate random meme. In addition, we can check each image path based on [Amazon S3 (Simple Storage Service)](https://aws.amazon.com/s3/) printed on plotted figure as well.
 
 ### Structure of Plot Engine
 ```
