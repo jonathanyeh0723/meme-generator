@@ -113,6 +113,8 @@ What is Amazon Rekognition?
 
 In this case,
 
+### Structure of AI Engine
+
 ## Setting up the environment
 
 ### Build
