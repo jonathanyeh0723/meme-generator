@@ -104,11 +104,10 @@ The core concept of AI Engine is to carry out image inference and detect labels.
 
 ![aws_rek](./rek.jpg)
 
-Amazon Rekognition is a service that makes it easy to add powerful visual analysis to our applications. 
-
-It is based on the highly scalable, deep learning technology developed by Amazon’s computer vision scientists to analyze billions of images and videos daily.
-
-That way, it requires no machine learning expertise to use. We don’t need to handle complex AI infrastructure or deal with time-consuming model training.
+What is Amazon Rekognition?
+ - Amazon Rekognition is a service that makes it easy to add powerful visual analysis to our applications. 
+ - It is based on the highly scalable, deep learning technology developed by Amazon’s computer vision scientists to analyze billions of images and videos daily.
+ - That way, it requires no machine learning expertise to use. We don’t need to handle complex AI infrastructure or deal with time-consuming model training.
 
 In this case,
 
