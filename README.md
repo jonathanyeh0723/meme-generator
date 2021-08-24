@@ -113,6 +113,8 @@ What is Amazon Rekognition?
 
 In this case,
 
+![detect_example](./detect_scenes.jpg)
+
 ### Structure of AI Engine
 ```
 .
