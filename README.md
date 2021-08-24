@@ -114,6 +114,15 @@ What is Amazon Rekognition?
 In this case,
 
 ### Structure of AI Engine
+```
+.
+├── AIEngine.py
+└── __init__.py
+
+0 directories, 2 files
+```
+ - `__init__.py`: To define what gets brought into the namespace with the import statement.
+ - `AIEngine.py`: Define AI Engine class to utilize AWS Rekognition to detect labels in the photo.
 
 ## Setting up the environment
 
