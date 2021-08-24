@@ -32,7 +32,6 @@ class PlotEngine:
         """To show all images used to generate meme."""
         fig = plt.figure()
         fig.set_size_inches(16, 12)
-
         nrows = 3
         ncols = 4
 

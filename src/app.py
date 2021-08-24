@@ -115,6 +115,11 @@ def meme_post():
 
     return render_template('meme.html', path=path)
 
+@app.route('/email', methods=['Get'])
+def email_form():
+    """User input for sending image email."""
+    return render_template('email_form.html')
+
 
 if __name__ == "__main__":
     app.run()
