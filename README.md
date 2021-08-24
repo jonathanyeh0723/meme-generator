@@ -103,7 +103,7 @@ Plot Engine is an individually special module. We can perform data visualization
 
 The following is a sample of using Plot Engine to execute data visualization for all dog photos.
 
-![dog_photos](./xanders_images.jpg)
+![dog_photos](./xanders_photos.jpg)
 
 ## AI Engine
 The core concept of AI Engine is to carry out image inference and detect labels. We define rules and use label extracted to let the computer automatically class the image with correspondent quotes. Basically, we utilize Amazon Rekognition for this task.
