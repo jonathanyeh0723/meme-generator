@@ -6,10 +6,14 @@ import argparse
 def get_args():
     """Make the script to accept user input arguments."""
     parser = argparse.ArgumentParser("Parse image & label for AI recognition")
-    parser.add_argument("-p", "--photo", default='xander_1.jpg', type=str,
-                        help="The path of image file based on AWS s3")
-    parser.add_argument("-t", "--target", default='Dog', type=str,
-                        help="Labels to be detected, specify 'Dog' or 'Cat'")
+    parser.add_argument("photo", type=str, help="""Dog: xander_1.jpg,
+                         xander_2.jpg, xander_3.jpg, xander_4.jpg;
+                         Cat: neymar_1.jpg, neymar_2.jpg, neymar_3.jpeg,
+                         neymar_4.jpeg; View: iceland_1.jpeg, iceland_2.jpeg,
+                         iceland_3.jpeg, iceland_4.jpeg""")
+    parser.add_argument("target", type=str, help="""To specify target label to
+                         detect, Dog, Cat or view: Antler, Mountain,
+                         Nature, River, etc.""")
     parser.add_argument("-pt", "--print_labels", default=True, type=str,
                         help="To print labels detected from the image")
     parser.add_argument("-s", "--show", default=True, type=str,

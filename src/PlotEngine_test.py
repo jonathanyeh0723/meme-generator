@@ -31,8 +31,8 @@ def get_photos():
 def args_get():
     """To use argparse to have console accept user input."""
     parser = argparse.ArgumentParser("Parse a photo set to view data")
-    parser.add_argument("-ps", "--photo_set", required=True,
-                        type=str, help="The name of photo set")
+    parser.add_argument("photo_set", type=str,
+                        help="cat_photos, dog_photos, view_photos, all_photos")
     args = parser.parse_args()
 
     return args
