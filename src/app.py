@@ -120,6 +120,10 @@ def email_form():
     """User input for sending image email."""
     return render_template('email_form.html')
 
+@app.route('/email', methods=['POST'])
+def email_post():
+
+    return
 
 if __name__ == "__main__":
     app.run()

@@ -1,3 +1,4 @@
+"""Import libraries for this email module."""
 import smtplib
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
@@ -6,15 +7,33 @@ from email import encoders
 
 
 class Email:
+    """
+    Define Email class.
 
-    sender_address = 'memegenerator886@gmail.com'
-    sender_passwd = 'BeautifulMeme2021'
+    It needs 2 positional argument to instantiate a class.
+    And a method to send email with .png image attachment.
+    """
 
-    @classmethod
-    def send(cls, receiver_address, subject, content, attach_file_name):
+    def __init__(self, sender_address, sender_passwd):
+        """Class init."""
+        self.sender_address = sender_address
+        self.sender_passwd = sender_passwd
 
+    def send(self, receiver_address, subject, content, attach_file_name):
+        """
+        Send email with attached image.
+
+        Arguments:
+            receiver_address {str} -- the receiver's email address.
+            subject {str} -- head of the mail.
+            content {str} -- body of the email.
+            attach_file_name {str} -- attached image name.
+        Returns:
+            a string with recipient mail address.
+        
+        """
         message = MIMEMultipart()
-        message['From'] = cls.sender_address
+        message['From'] = self.sender_address
         message['To'] = receiver_address
         message['Subject'] = subject
 
@@ -31,9 +50,9 @@ class Email:
 
         session = smtplib.SMTP('smtp.gmail.com', 587)
         session.starttls()
-        session.login(cls.sender_address, cls.sender_passwd)
+        session.login(self.sender_address, self.sender_passwd)
         text = message.as_string()
-        session.sendmail(cls.sender_address, receiver_address, text)
+        session.sendmail(self.sender_address, receiver_address, text)
         session.quit()
 
         return f'Send email to {receiver_address}.'
