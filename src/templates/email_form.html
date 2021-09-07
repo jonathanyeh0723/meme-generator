@@ -5,24 +5,25 @@
     <div class="card-body">
         <form action="{{url_for('email_post')}}" method="POST">
             <div class="form-group">
-                <label for="email_add">Sender's Email Address</label>
-                <input type="url" class="form-control" id="image_url" aria-describedby="image url" placeholder="Enter your email address" name="image_url">
+                <label for="exampleInputEmail1">Sender's Email Address</label>
+		<input type="email" class="form-control" id="s_email_addr" aria-describedby="emailHelp" placeholder="Enter your email address" name="s_email_addr">
+		<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
             </div>
             <div class="form-group">
-                <label for="email_add">Sender's Email Password</label>
-                <input type="url" class="form-control" id="image_url" aria-describedby="image url" placeholder="Enter your email password" name="image_url">
+                <label for="exampleInputPassword1">Sender's Email Password</label>
+                <input type="password" class="form-control" id="s_email_passwd" aria-describedby="sender email passwd" placeholder="Enter your email password" name="s_email_passwd">
             </div>
             <div class="form-group">
-                <label for="email_add">Recipient Email Address</label>
-                <input type="url" class="form-control" id="image_url" aria-describedby="image url" placeholder="Email address for the recipient" name="image_url">
+                <label for="exampleInputEmail1">Recipient Email Address</label>
+                <input type="email" class="form-control" id="r_email_addr" aria-describedby="recipient email address" placeholder="Email address for the recipient" name="r_email_addr">
             </div>
             <div class="form-group">
-                <label for="body">Email Subject</label>
-                <input type="text" class="form-control" id="body" aria-describedby="Quote Body" placeholder="Title of the email" name="body">
+                <label for="exampleFormControlTextarea1">Email Subject</label>
+                <input type="text" class="form-control" id="r_email_subj" aria-describedby="Email Title" placeholder="Title of the email" name="r_email_subj">
             </div>
             <div class="form-group">
-                <label for="author">Email Content</label>
-                <input type="text" class="form-control" id="author" aria-describedby="Quote Author" placeholder="Body of the email" name="author">
+                <label for="email_add">Email Content</label>
+                <input type="text" class="form-control" id="r_email_body" aria-describedby="Email Content" placeholder="Body of the email" name="r_email_body">
             </div>
             <button type="submit" class="btn btn-success">Send Your Masterpiece!</button>
         </form>

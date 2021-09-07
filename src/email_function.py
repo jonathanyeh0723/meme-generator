@@ -19,7 +19,7 @@ class Email:
         self.sender_address = sender_address
         self.sender_passwd = sender_passwd
 
-    def send(self, receiver_address, subject, content, attach_file_name):
+    def send(self, receiver_address, subject, content, attach_file_name=None):
         """
         Send email with attached image.
 
@@ -30,23 +30,23 @@ class Email:
             attach_file_name {str} -- attached image name.
         Returns:
             a string with recipient mail address.
-        
+
         """
         message = MIMEMultipart()
         message['From'] = self.sender_address
         message['To'] = receiver_address
         message['Subject'] = subject
-
         message.attach(MIMEText(content, 'plain'))
-        attach_file = open(attach_file_name, 'rb')
 
-        payload = MIMEBase('application', 'octate-stream')
-        payload.set_payload((attach_file).read())
-        encoders.encode_base64(payload)
+        if attach_file_name is not None:
+            attach_file = open(attach_file_name, 'rb')
+            payload = MIMEBase('application', 'octate-stream')
+            payload.set_payload((attach_file).read())
+            encoders.encode_base64(payload)
 
-        payload.add_header('Content-Disposition', 'attachment',
-                           filename=attach_file_name)
-        message.attach(payload)
+            payload.add_header('Content-Disposition', 'attachment',
+                               filename=attach_file_name)
+            message.attach(payload)
 
         session = smtplib.SMTP('smtp.gmail.com', 587)
         session.starttls()

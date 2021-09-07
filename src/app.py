@@ -7,6 +7,8 @@ from flask import Flask, render_template, abort, request
 from QuoteEngine import Ingestor, QuoteModel
 from MemeEngine import MemeGenerator
 from AIEngine import AIEngine
+from email_function import Email
+import subprocess
 
 app = Flask(__name__)
 
@@ -115,15 +117,39 @@ def meme_post():
 
     return render_template('meme.html', path=path)
 
+
 @app.route('/email', methods=['Get'])
 def email_form():
     """User input for sending image email."""
     return render_template('email_form.html')
 
+
 @app.route('/email', methods=['POST'])
 def email_post():
+    """Send email using generated meme."""
+    if request.method == 'POST':
+        s_email_addr = request.form.get('s_email_addr')
+        s_email_passwd = request.form.get('s_email_passwd')
+        r_email_addr = request.form.get('r_email_addr')
+        r_email_subj = request.form.get('r_email_subj')
+        r_email_body = request.form.get('r_email_body')
 
-    return
+    email = Email(s_email_addr, s_email_passwd)
+
+    #img = random.choice(imgs)
+    #path = meme.make_meme(img, 'Hello World', 'Jonathan')
+    #path = './static/' + os.listdir('./static')[-1]
+    subprocess.call(["ls -lt ./static > images.txt"], shell=True)
+    with open('images.txt', 'r') as f:
+        for line in f:
+            if line.startswith('-'):
+                last_img = line.split(' ')[-1].strip('\n')
+                break
+    path = path = './static/' + str(last_img)
+    email.send(r_email_addr, r_email_subj, r_email_body, path)
+
+    return render_template('meme.html', path=path)
+
 
 if __name__ == "__main__":
     app.run()
