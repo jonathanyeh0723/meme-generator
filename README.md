@@ -144,8 +144,10 @@ sudo apt install -y python3.8-venv python3-pip python3-tk curl vim
 
 First, clone this repository to create a local copy on your computer.
 ```
-git clone 
+git clone https://github.com/jonathanyeh0723/meme-generator
 ```
+
+Next
 
 ### Test
 
