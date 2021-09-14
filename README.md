@@ -130,7 +130,7 @@ In this case,
  - `__init__.py`: To define what gets brought into the namespace with the import statement.
  - `AIEngine.py`: Define AI Engine class to utilize AWS Rekognition to detect labels in the photo.
 
-## Setting up the Environment
+## Set up
 
  - OS: Linux distribution - [Ubuntu 20.04.3 LTS](https://ubuntu.com/download/desktop). We can check the [release notes](https://wiki.ubuntu.com/FocalFossa/ReleaseNotes?_ga=2.218895194.2117983555.1631591363-727216992.1631591363) to see an overview of the release and documentation of the known issues in detail.
  - Python version: 3.8.10
@@ -140,7 +140,7 @@ Prerequisites: To install Python virtual environment establishment, package mana
 sudo apt install -y python3.8-venv python3-pip python3-tk curl vim
 ```
 
-### 1. Build
+### Build
 
 First, clone this repository to create a local copy on your computer.
 ```
