@@ -142,6 +142,11 @@ sudo apt install -y python3.8-venv python3-pip python3-tk curl vim
 
 ### Build
 
+First, clone this repository to create a local copy on your computer.
+```
+git clone 
+```
+
 ### Test
 
 ### Deploy
