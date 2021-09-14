@@ -140,7 +140,7 @@ Prerequisites: To install Python virtual environment establishment, package mana
 sudo apt install -y python3.8-venv python3-pip python3-tk curl vim
 ```
 
-### Build
+### 1. Build
 
 First, clone this repository to create a local copy on your computer.
 ```
@@ -149,7 +149,7 @@ git clone https://github.com/jonathanyeh0723/meme-generator
 
 Next
 
-### Test
+### 2. Test
 
 ### Deploy
 
