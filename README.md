@@ -132,6 +132,8 @@ In this case,
 
 ## Setting up the environment
 
+OS: [Ubuntu 20.04.3 LTS](https://ubuntu.com/download/desktop)
+
 ### Build
 
 ### Test
