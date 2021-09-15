@@ -137,7 +137,7 @@ In this case,
 
 **Prerequisites**: To install Python virtual environment establishment, package management system (pip), and some useful libraries.
 ```
-sudo apt install -y python3.8-venv python3-pip python3-tk curl vim
+sudo apt install -y python3.8-venv python3-pip python3-tk curl vim git
 ```
 
 ### Build
