@@ -250,7 +250,7 @@ Data visualization for images: ['xander_1.jpg', 'xander_2.jpg', 'xander_3.jpg', 
 ![all_photos](./resources/all_photos.png)
 
 ### Test for AIEngine module
-Run AIEngine_test.py to see what argument needed to specify.
+Run AIEngine_test.py with `--help` to see what argument needed to specify.
 ```
 $ python3 AIEngine_test.py --help
 usage: Parse image & label for AI recognition [-h] [-pt PRINT_LABELS] [-s SHOW] photo target
@@ -304,7 +304,7 @@ Parents:
 
 Let's pick a cat photo for testing.
 ```
-python3 AIEngine_test.py 'neymar_4.jpeg' 'Cat'
+$ python3 AIEngine_test.py 'neymar_4.jpeg' 'Cat'
 ```
 
 We should be able to see following reflected from the console, if successful:
@@ -338,7 +338,7 @@ Parents:
 
 Test for one of the beautiful iceland view.
 ```
-python3 AIEngine_test.py 'iceland_2.jpeg' 'Nature'
+$ python3 AIEngine_test.py 'iceland_2.jpeg' 'Nature'
 [ Print Info ] To predict Nature label...
 
 ----------
