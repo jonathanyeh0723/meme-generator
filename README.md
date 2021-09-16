@@ -413,6 +413,19 @@ Parents:
 
 ### Deploy
 
+Now we have tested all the modules built and confirmed the functionality. It’s time to deploy to web for interactive usage. Run following commands:
+```
+$ python3 app.py 
+ * Serving Flask app 'app' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+```
+
+We can see that it is running on http://127.0.0.1:5000/. Open your web browser, and navigate to that location. Enjoy it!
+
 ## Demo: Using meme generator with email function to send what you create to your friend or loved one!
 
 ![demo_with_email](pipeline_demo_email.gif)
