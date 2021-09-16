@@ -144,22 +144,22 @@ sudo apt install -y python3.8-venv python3-pip python3-tk curl vim git
 
 First, clone this repository to create a local copy on your computer.
 ```
-git clone https://github.com/jonathanyeh0723/meme-generator
+$ git clone https://github.com/jonathanyeh0723/meme-generator
 ```
 
 Next, create an isolated virtual environment for this project (in this example: meme-env)
 ```
-python3 -m venv meme-env
+$ python3 -m venv meme-env
 ```
 
 Once the virtual environment was created, you can activate it.
 ```
-source meme-env/bin/activate
+$ source meme-env/bin/activate
 ```
 
 After that, using following commands to install all the python packages are required to run this app
 ```
-pip install -r requirements.txt
+$ pip install -r requirements.txt
 ```
 
 Further, we need to configure basic settings that the AWS Command Line Interface (AWS CLI) uses to interact with AWS API.
