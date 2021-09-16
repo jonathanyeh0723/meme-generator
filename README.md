@@ -157,6 +157,13 @@ Once the virtual environment was created, you can activate it.
 source meme-env/bin/activate
 ```
 
+After that, using following commands to install all the python packages are required to run this app
+```
+pip install -r requirements.txt
+```
+
+
+
 ### Test
 
 ### Deploy
