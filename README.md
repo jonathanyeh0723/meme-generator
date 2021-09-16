@@ -180,6 +180,23 @@ $ cd src/
 ```
 
 Test for QuoteEngine module
+```
+$ python3 QuoteEngine_test.py
+```
+
+```
+Test for DocxImporter:
+[<"Bark like no one’s listening" ,  Rex>, <"RAWRGWAWGGR" ,  Chewy>, <"Life is like peanut butter: crunchy" ,  Peanut>, <"Channel your inner husky" ,  Tiny>]
+Test for CSVImporter:
+[<Chase the mailman, Skittle>, <When in doubt, go shoe-shopping, Mr. Paws>]
+Test for TXTImporter:
+[<﻿To bork or not to bork ,  Bork>, <He who smelt it... ,  Stinky>]
+Test for PDFImporter:
+[<"Treat yo self" ,  Fluffles>, <"Life is like a box of treats" ,  Forrest Pup>, <"It's the size of the fight in the dog" ,  Bark Twain>]
+Test for Ingestor:
+[<"Treat yo self" ,  Fluffles>, <"Life is like a box of treats" ,  Forrest Pup>, <"It's the size of the fight in the dog" ,  Bark Twain>]
+Using ./_data/DogQuotes/DogQuotesPDF.pdf
+```
 
 ### Deploy
 
