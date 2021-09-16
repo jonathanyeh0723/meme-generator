@@ -155,5 +155,7 @@ Next
 
 ## Pipeline
 
+![demo_with_email](meme_demo_email.gif)
+
 ## Resources
 
