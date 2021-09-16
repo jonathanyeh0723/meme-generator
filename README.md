@@ -137,7 +137,7 @@ In this case,
 
 **Prerequisites**: To install Python virtual environment establishment, package management system (pip), and some useful libraries.
 ```
-sudo apt install -y python3.8-venv python3-pip python3-tk curl vim git
+$ sudo apt install -y python3.8-venv python3-pip python3-tk curl vim git
 ```
 
 ### Build
@@ -173,6 +173,13 @@ Default output format [None]: json
 ```
 
 ### Test
+
+We're all set! Now we can navigate to the main folder to start testing.
+```
+$ cd src/
+```
+
+Test for QuoteEngine module
 
 ### Deploy
 
