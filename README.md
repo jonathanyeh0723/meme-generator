@@ -36,8 +36,8 @@ This [overengineering](https://en.wikipedia.org/wiki/Overengineering) solution c
 
  - **AI Engine**: The `AI Engine` is responsible for object detection. It leverage [Amazon Rekognition](https://aws.amazon.com/rekognition/?nc1=h_ls&blog-cards.sort-by=item.additionalFields.createdDate&blog-cards.sort-order=desc) to identify the image content and define rules to choose the quote category.
 
- - **Meme App**:
- - **Meme Generator**:
+ - **Meme App**: The main function of meme generator. This is where the backend Flask function defined to communicate with frontend web page.
+ - **Meme Generator**: The web browser based meme generator application.
 
 ## QuoteEngine
 This module will be composed of many classes. The complex inheritance, abstract classes, classmethods, strategy objects and other fundamental programming principles of Python are used to complete this module.
