@@ -219,6 +219,7 @@ Check out what we just created.
 ```
 $ eog tmp/299769.png
 ```
+![random_meme](299769.png)
 
 ### Deploy
 
