@@ -148,6 +148,9 @@ git clone https://github.com/jonathanyeh0723/meme-generator
 ```
 
 Next
+```
+python3 -m venv meme-env
+```
 
 ### Test
 
