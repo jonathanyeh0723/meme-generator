@@ -226,6 +226,18 @@ $ eog tmp/578978.png
 ```
 ![random_meme](578978.png)
 
+#### Test for PlotEngine module
+
+```
+$ python3 PlotEngine_test.py --help
+usage: Parse a photo set to view data [-h] photo_set
+
+positional arguments:
+  photo_set   cat_photos, dog_photos, view_photos, all_photos
+
+optional arguments:
+  -h, --help  show this help message and exit
+```
 
 ### Deploy
 
