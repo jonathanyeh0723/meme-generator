@@ -331,6 +331,9 @@ Parents:
 .
 [ Print Info ] Cat label detected: True
 ```
+
+![ai_neymar](AIEngine_test_neymar.jpg)
+
 ### Deploy
 
 ## Demo: Using meme generator with email function to send what you create to your friend or loved one!
