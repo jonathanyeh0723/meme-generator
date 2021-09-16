@@ -334,6 +334,83 @@ Parents:
 
 ![ai_neymar](AIEngine_test_neymar.jpg)
 
+Test for one of the beautiful iceland view.
+```
+python3 AIEngine_test.py 'iceland_2.jpeg' 'Nature'
+[ Print Info ] To predict Nature label...
+
+----------
+Detected labels for iceland_2.jpeg
+
+Label: Mountain
+Confidence: 99.92627716064453
+Instances:
+Parents:
+   Outdoors
+   Nature
+----------
+
+Label: Nature
+Confidence: 99.92627716064453
+Instances:
+Parents:
+----------
+
+Label: Outdoors
+Confidence: 99.92627716064453
+Instances:
+Parents:
+----------
+
+Label: Ice
+Confidence: 99.61046600341797
+Instances:
+Parents:
+   Outdoors
+   Nature
+----------
+
+Label: Snow
+Confidence: 97.35186004638672
+Instances:
+Parents:
+   Outdoors
+   Nature
+----------
+
+Label: Glacier
+Confidence: 97.00318908691406
+Instances:
+Parents:
+   Mountain
+   Ice
+   Snow
+   Outdoors
+   Nature
+----------
+
+Label: Mountain Range
+Confidence: 58.934200286865234
+Instances:
+Parents:
+   Mountain
+   Outdoors
+   Nature
+----------
+
+Label: Peak
+Confidence: 56.23170852661133
+Instances:
+Parents:
+   Mountain Range
+   Mountain
+   Outdoors
+   Nature
+----------
+
+[ Print Info ] Nature label detected: True
+```
+
 ### Deploy
 
 ## Demo: Using meme generator with email function to send what you create to your friend or loved one!
