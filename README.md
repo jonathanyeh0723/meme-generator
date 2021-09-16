@@ -298,6 +298,78 @@ Parents:
 [ Print Info ] Dog label detected: True
 ```
 
+Test for one of the cat photo.
+```
+python3 AIEngine_test.py 'neymar_4.jpeg' 'Cat'
+[ Print Info ] To predict Cat label...
+
+----------
+Detected labels for neymar_4.jpeg
+
+Label: Cat
+Confidence: 90.30731964111328
+Instances:
+Bounding box
+ Top: 0.5292110443115234
+ Left: 0.6587520837783813
+ Width: 0.25333595275878906
+ Height: 0.3358360826969147
+Confidence: 90.30731964111328
+
+Parents:
+   Pet
+   Mammal
+   Animal
+----------
+
+Label: Animal
+Confidence: 90.30731964111328
+Instances:
+Parents:
+----------
+
+Label: Mammal
+Confidence: 90.30731964111328
+Instances:
+Parents:
+   Animal
+----------
+
+Label: Pet
+Confidence: 90.30731964111328
+Instances:
+Parents:
+   Animal
+----------
+
+Label: Lamp
+Confidence: 71.80332946777344
+Instances:
+Parents:
+----------
+
+Label: Bed
+Confidence: 67.85318756103516
+Instances:
+Bounding box
+ Top: 0.5785757303237915
+ Left: 0.005527400877326727
+ Width: 0.9934309720993042
+ Height: 0.42003539204597473
+Confidence: 67.85318756103516
+
+Parents:
+   Furniture
+----------
+
+Label: Furniture
+Confidence: 67.85318756103516
+Instances:
+Parents:
+----------
+
+[ Print Info ] Cat label detected: True
+```
 ### Deploy
 
 ## Demo: Using meme generator with email function to send what you create to your friend or loved one!
