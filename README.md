@@ -264,9 +264,12 @@ optional arguments:
   -s SHOW, --show SHOW  Show the bounding boxes for the labels detected
 ```
 
-Let's grab a dog photo for the test. We should
+Let's grab a dog photo for the test. 
 ```
 $ python3 AIEngine_test.py 'xander_2.jpg' 'Dog'
+```
+We should be able to see following reflected from the console, if successful:
+```
 [ Print Info ] To predict Dog label...
 
 ----------
@@ -295,7 +298,7 @@ Instances:
 Parents:
    Mammal
    Animal
-----------
+.
 .
 .
 ----------
