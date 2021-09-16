@@ -290,14 +290,6 @@ Parents:
    Canine
    Animal
    Mammal
-----------
-
-Label: Canine
-Confidence: 99.11785125732422
-Instances:
-Parents:
-   Mammal
-   Animal
 .
 .
 .
