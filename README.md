@@ -264,6 +264,45 @@ optional arguments:
   -s SHOW, --show SHOW  Show the bounding boxes for the labels detected
 ```
 
+Let's grab a dog photo for the test. We should
+```
+$ python3 AIEngine_test.py 'xander_2.jpg' 'Dog'
+[ Print Info ] To predict Dog label...
+
+----------
+Detected labels for xander_2.jpg
+
+Label: Dog
+Confidence: 99.11785125732422
+Instances:
+Bounding box
+ Top: 0.02342822216451168
+ Left: 0.006567688193172216
+ Width: 0.9914323091506958
+ Height: 0.9745717644691467
+Confidence: 99.11785125732422
+
+Parents:
+   Pet
+   Canine
+   Animal
+   Mammal
+----------
+
+Label: Canine
+Confidence: 99.11785125732422
+Instances:
+Parents:
+   Mammal
+   Animal
+----------
+.
+.
+----------
+
+[ Print Info ] Dog label detected: True
+```
+
 ### Deploy
 
 ## Demo: Pipeline using meme generator and email function to send what you create to your friends or loved one!
