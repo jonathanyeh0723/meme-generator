@@ -152,6 +152,11 @@ Next, create an isolated virtual environment for this project (in this example: 
 python3 -m venv meme-env
 ```
 
+Once the virtual environment was created, you can activate it.
+```
+source meme-env/bin/activate
+```
+
 ### Test
 
 ### Deploy
