@@ -147,7 +147,7 @@ First, clone this repository to create a local copy on your computer.
 $ git clone https://github.com/jonathanyeh0723/meme-generator
 ```
 
-Next, create an isolated virtual environment for this project (in this example: meme-env)
+Next, create an isolated virtual environment for this project (in this example: meme-env).
 ```
 $ python3 -m venv meme-env
 ```
@@ -157,7 +157,7 @@ Once the virtual environment was created, you can activate it.
 $ source meme-env/bin/activate
 ```
 
-After that, using following commands to install all the python packages are required to run this app
+After that, using following commands to install all the python packages are required to run this app.
 ```
 $ pip install -r requirements.txt
 ```
@@ -179,11 +179,12 @@ We're all set! Now we can navigate to the main folder to start testing.
 $ cd src/
 ```
 
-Test for QuoteEngine module
+Test for QuoteEngine module:
 ```
 $ python3 QuoteEngine_test.py
 ```
 
+We should be able to see the following output, if successful:
 ```
 Test for DocxImporter:
 [<"Bark like no one’s listening" ,  Rex>, <"RAWRGWAWGGR" ,  Chewy>, <"Life is like peanut butter: crunchy" ,  Peanut>, <"Channel your inner husky" ,  Tiny>]
