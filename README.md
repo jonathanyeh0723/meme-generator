@@ -302,7 +302,7 @@ Parents:
 
 ## Demo: Pipeline using meme generator and email function to send what you create to your friends or loved one!
 
-![demo_with_email](meme_demo_email.gif)
+![demo_with_email](pipeline_demo_email.gif)
 
 ## Resources
 
