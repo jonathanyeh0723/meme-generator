@@ -218,7 +218,7 @@ $ ls tmp/
 
 ### Deploy
 
-## Pipeline
+## Demo: Pipeline using meme generator and email function to send what you create to your friends or loved ones 
 
 ![demo_with_email](meme_demo_email.gif)
 
