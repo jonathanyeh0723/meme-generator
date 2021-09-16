@@ -227,7 +227,7 @@ $ eog tmp/578978.png
 ![random_meme](578978.png)
 
 #### Test for PlotEngine module
-
+Run this script with `--help` to see what argument needed to specify. 
 ```
 $ python3 PlotEngine_test.py --help
 usage: Parse a photo set to view data [-h] photo_set
