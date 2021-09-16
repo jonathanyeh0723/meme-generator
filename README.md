@@ -17,11 +17,11 @@ This packaged applications can be accessed in 2 ways:
 
 Not only we can generate random memes by command-line utility, but also we can interact with web interface, where you can generate random memes at the click of a button, or make your app accept user input through a post request.
 
-![overview](./1_overview.jpg)
+![overview](./resources/1_overview.jpg)
 
 Below is a created meme demo inspired by one of my favorite movie, La La Land.
 
-![lalaland](./lalaland.png)
+![lalaland](./resources/lalaland.png)
 
 ## Block Diagram
 This [overengineering](https://en.wikipedia.org/wiki/Overengineering) solution consists of 4 main modules – Quote Engine, Meme Engine, Plot Engine, and AI Engine.
