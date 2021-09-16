@@ -175,7 +175,7 @@ Default output format [None]: json
 
 ### Test
 
-We're all set! Now we can navigate to the main folder to start testing.
+We're all set! Now we can navigate to the src folder to start testing.
 ```
 $ cd src/
 ```
@@ -247,7 +247,7 @@ Data visualization for images: ['xander_1.jpg', 'xander_2.jpg', 'xander_3.jpg', 
 ```
 ![all_photos](all_photos.png)
 
-### Test for AI
+### Test for AIEngine module
 Run AIEngine_test.py to see what argument needed to specify.
 ```
 $ python3 AIEngine_test.py --help
