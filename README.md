@@ -140,8 +140,9 @@ In this case,
 $ sudo apt install -y python3.8-venv python3-pip python3-tk curl vim git
 ```
 
-### Build
+## Build, Test, Deploy
 
+### Build
 First, clone this repository to create a local copy on your computer.
 ```
 $ git clone https://github.com/jonathanyeh0723/meme-generator
@@ -179,7 +180,7 @@ We're all set! Now we can navigate to the main folder to start testing.
 $ cd src/
 ```
 
-#### Test for QuoteEngine module
+### Test for QuoteEngine module
 ```
 $ python3 QuoteEngine_test.py
 ```
@@ -199,7 +200,7 @@ Test for Ingestor:
 Using ./_data/DogQuotes/DogQuotesPDF.pdf
 ```
 
-#### Test for MemeEngine module
+### Test for MemeEngine module
 ```
 $ sh MemeEngine_test.sh
 ```
@@ -226,7 +227,7 @@ $ eog tmp/578978.png
 ```
 ![random_meme](578978.png)
 
-#### Test for PlotEngine module
+### Test for PlotEngine module
 Run PlotEngine_test.py script with `--help` to see what argument needed to specify. 
 ```
 $ python3 PlotEngine_test.py --help
@@ -246,7 +247,7 @@ Data visualization for images: ['xander_1.jpg', 'xander_2.jpg', 'xander_3.jpg', 
 ```
 ![all_photos](all_photos.png)
 
-#### Test for AI
+### Test for AI
 Run AIEngine_test.py to see what argument needed to specify.
 ```
 $ python3 AIEngine_test.py --help
