@@ -211,6 +211,10 @@ Test MemeEngine with arguments added.
 ./tmp/578978.png
 ```
 In addition, we can check the tmp directory to see the generated meme.
+```
+$ ls tmp/
+299769.png  578978.png
+```
 
 ### Deploy
 
