@@ -103,12 +103,12 @@ Plot Engine is an individually special module. We can perform data visualization
 
 The following is a sample of using Plot Engine to execute data visualization for all dog photos.
 
-![dog_photos](./xanders_photos.jpg)
+![dog_photos](./resources/xanders_photos.jpg)
 
 ## AI Engine
 The core concept of AI Engine is to carry out image inference and detect labels. We define rules and use label extracted to let the computer automatically class the image with correspondent quotes. Basically, we utilize Amazon Rekognition for this task.
 
-![aws_rek](./rek.jpg)
+![aws_rek](./resources/rek.jpg)
 
 What is Amazon Rekognition?
  - Amazon Rekognition is a service that makes it easy to add powerful visual analysis to our applications. 
@@ -117,7 +117,7 @@ What is Amazon Rekognition?
 
 In this case, we use its powerful AI identification for image inference, label detection, and draw the bounding box around the specific object. 
 
-![detect_example](./detect_label_example.jpg)
+![detect_example](./resources/detect_label_example.jpg)
 
 ### Structure of AI Engine
 ```
@@ -428,4 +428,4 @@ We can see that it is running on http://127.0.0.1:5000/. Open your web browser, 
 
 ## Demo: Using meme generator with email function to send what you create to your friend or loved one!
 
-![demo_with_email](pipeline_demo_email.gif)
+![demo_with_email](./resources/pipeline_demo_email.gif)
