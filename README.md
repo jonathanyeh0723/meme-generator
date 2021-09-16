@@ -227,7 +227,7 @@ $ eog tmp/578978.png
 ![random_meme](578978.png)
 
 #### Test for PlotEngine module
-Run this script with `--help` to see what argument needed to specify. 
+Run PlotEngine_test.py script with `--help` to see what argument needed to specify. 
 ```
 $ python3 PlotEngine_test.py --help
 usage: Parse a photo set to view data [-h] photo_set
@@ -245,6 +245,24 @@ Number of images: 12
 Data visualization for images: ['xander_1.jpg', 'xander_2.jpg', 'xander_3.jpg', 'xander_4.jpg', 'neymar_1.jpg', 'neymar_2.jpg', 'neymar_3.jpeg', 'neymar_4.jpeg', 'iceland_1.jpeg', 'iceland_2.jpeg', 'iceland_3.jpeg', 'iceland_4.jpeg']
 ```
 ![all_photos](all_photos.png)
+
+#### Test for AI
+Run AIEngine_test.py to see what argument needed to specify.
+```
+$ python3 AIEngine_test.py --help
+usage: Parse image & label for AI recognition [-h] [-pt PRINT_LABELS] [-s SHOW] photo target
+
+positional arguments:
+  photo                 Dog: xander_1.jpg, xander_2.jpg, xander_3.jpg, xander_4.jpg; Cat: neymar_1.jpg, neymar_2.jpg, neymar_3.jpeg, neymar_4.jpeg; View: iceland_1.jpeg, iceland_2.jpeg,
+                        iceland_3.jpeg, iceland_4.jpeg
+  target                To specify target label to detect, Dog, Cat or view: Antler, Mountain, Nature, River, etc.
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -pt PRINT_LABELS, --print_labels PRINT_LABELS
+                        To print labels detected from the image
+  -s SHOW, --show SHOW  Show the bounding boxes for the labels detected
+```
 
 ### Deploy
 
