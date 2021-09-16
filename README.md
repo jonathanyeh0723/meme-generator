@@ -300,7 +300,7 @@ Parents:
 
 ### Deploy
 
-## Demo: Pipeline using meme generator and email function to send what you create to your friends or loved one!
+## Demo: Using meme generator with email function to send what you create to your friend or loved one!
 
 ![demo_with_email](pipeline_demo_email.gif)
 
