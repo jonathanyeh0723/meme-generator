@@ -429,6 +429,3 @@ We can see that it is running on http://127.0.0.1:5000/. Open your web browser, 
 ## Demo: Using meme generator with email function to send what you create to your friend or loved one!
 
 ![demo_with_email](pipeline_demo_email.gif)
-
-## Resources
-
