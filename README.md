@@ -215,10 +215,11 @@ In addition, we can check the tmp directory to see the generated meme.
 $ ls tmp/
 299769.png  578978.png
 ```
+Check out what we just created.
 
 ### Deploy
 
-## Demo: Pipeline using meme generator and email function to send what you create to your friends or loved ones 
+## Demo: Pipeline using meme generator and email function to send what you create to your friends or loved one!
 
 ![demo_with_email](meme_demo_email.gif)
 
