@@ -210,7 +210,7 @@ Test MemeEngine with defaults.
 Test MemeEngine with arguments added.
 ./tmp/578978.png
 ```
-In addition,
+In addition, we can check the tmp directory to see the generated meme.
 
 ### Deploy
 
