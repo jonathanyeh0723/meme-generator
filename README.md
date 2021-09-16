@@ -210,12 +210,15 @@ Test MemeEngine with defaults.
 Test MemeEngine with arguments added.
 ./tmp/578978.png
 ```
-In addition, we can check the tmp directory to see the generated meme.
+In addition, we can verify the tmp directory to see the generated meme.
 ```
 $ ls tmp/
 299769.png  578978.png
 ```
 Check out what we just created.
+```
+$ eog tmp/299769.png
+```
 
 ### Deploy
 
