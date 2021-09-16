@@ -26,7 +26,7 @@ Below is a created meme demo inspired by one of my favorite movie, La La Land.
 ## Block Diagram
 This [overengineering](https://en.wikipedia.org/wiki/Overengineering) solution consists of 4 main modules – Quote Engine, Meme Engine, Plot Engine, and AI Engine.
 
-![block_diagram](./2_block_diagram.jpg)
+![block_diagram](./resources/2_block_diagram.jpg)
 
  - **Quote Engine**: The `Quote Engine` module is responsible for ingesting many types of files that contain quotes. For the sake of image maker with text, a *quote* contains a *body* and an *author*.
 
@@ -88,7 +88,7 @@ The meme engine module is used for image manipulation. The purpose is to generat
 ## Plot Engine
 Plot Engine is an individually special module. We can perform data visualization by using [matplotlib](https://matplotlib.org/) to view all images included in this application. It will help us to have an overall picture of the photos used to generate random meme. In addition, we can check each image path based on [Amazon S3 (Simple Storage Service)](https://aws.amazon.com/s3/) printed on plotted figure as well.
 
-![matplotlib](./matplotlib.jpg)
+![matplotlib](./resources/matplotlib.jpg)
 
 ### Structure of Plot Engine
 ```
