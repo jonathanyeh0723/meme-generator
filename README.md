@@ -292,7 +292,6 @@ Parents:
    Mammal
 .
 .
-.
 ----------
 
 [ Print Info ] Dog label detected: True
