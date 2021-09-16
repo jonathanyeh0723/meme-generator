@@ -301,6 +301,10 @@ Parents:
 Test for one of the cat photo.
 ```
 python3 AIEngine_test.py 'neymar_4.jpeg' 'Cat'
+```
+
+We should be able to see following reflected from the console, if successful:
+```
 [ Print Info ] To predict Cat label...
 
 ----------
@@ -322,7 +326,7 @@ Parents:
    Animal
 ----------
 .
-
+.
 [ Print Info ] Cat label detected: True
 ```
 ### Deploy
