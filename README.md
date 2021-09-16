@@ -321,52 +321,7 @@ Parents:
    Mammal
    Animal
 ----------
-
-Label: Animal
-Confidence: 90.30731964111328
-Instances:
-Parents:
-----------
-
-Label: Mammal
-Confidence: 90.30731964111328
-Instances:
-Parents:
-   Animal
-----------
-
-Label: Pet
-Confidence: 90.30731964111328
-Instances:
-Parents:
-   Animal
-----------
-
-Label: Lamp
-Confidence: 71.80332946777344
-Instances:
-Parents:
-----------
-
-Label: Bed
-Confidence: 67.85318756103516
-Instances:
-Bounding box
- Top: 0.5785757303237915
- Left: 0.005527400877326727
- Width: 0.9934309720993042
- Height: 0.42003539204597473
-Confidence: 67.85318756103516
-
-Parents:
-   Furniture
-----------
-
-Label: Furniture
-Confidence: 67.85318756103516
-Instances:
-Parents:
-----------
+.
 
 [ Print Info ] Cat label detected: True
 ```
