@@ -220,12 +220,12 @@ Check out what we just created.
 ```
 $ eog tmp/299769.png
 ```
-![random_meme](299769.png)
+![random_meme](./resources/299769.png)
 
 ```
 $ eog tmp/578978.png
 ```
-![random_meme](578978.png)
+![created_meme](./resources/578978.png)
 
 ### Test for PlotEngine module
 Run PlotEngine_test.py script with `--help` to see what argument needed to specify. 
@@ -245,7 +245,7 @@ $ python3 PlotEngine_test.py 'all_photos'
 Number of images: 12
 Data visualization for images: ['xander_1.jpg', 'xander_2.jpg', 'xander_3.jpg', 'xander_4.jpg', 'neymar_1.jpg', 'neymar_2.jpg', 'neymar_3.jpeg', 'neymar_4.jpeg', 'iceland_1.jpeg', 'iceland_2.jpeg', 'iceland_3.jpeg', 'iceland_4.jpeg']
 ```
-![all_photos](all_photos.png)
+![all_photos](./resources/all_photos.png)
 
 ### Test for AIEngine module
 Run AIEngine_test.py to see what argument needed to specify.
@@ -298,7 +298,7 @@ Parents:
 [ Print Info ] Dog label detected: True
 ```
 
-![ai_xander](AIEngine_test_xander.jpg)
+![ai_xander](./resources/AIEngine_test_xander.jpg)
 
 Let's pick a cat photo for testing.
 ```
@@ -332,7 +332,7 @@ Parents:
 [ Print Info ] Cat label detected: True
 ```
 
-![ai_neymar](AIEngine_test_neymar.jpg)
+![ai_neymar](./resources/AIEngine_test_neymar.jpg)
 
 Test for one of the beautiful iceland view.
 ```
