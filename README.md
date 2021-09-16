@@ -238,6 +238,12 @@ positional arguments:
 optional arguments:
   -h, --help  show this help message and exit
 ```
+Let’s have an overview for the photos we have:
+```
+$ python3 PlotEngine_test.py 'all_photos'
+Number of images: 12
+Data visualization for images: ['xander_1.jpg', 'xander_2.jpg', 'xander_3.jpg', 'xander_4.jpg', 'neymar_1.jpg', 'neymar_2.jpg', 'neymar_3.jpeg', 'neymar_4.jpeg', 'iceland_1.jpeg', 'iceland_2.jpeg', 'iceland_3.jpeg', 'iceland_4.jpeg']
+```
 
 ### Deploy
 
