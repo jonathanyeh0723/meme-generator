@@ -6,7 +6,7 @@
 
 The meme generator lets you create memes with established quotes and images; moreover, you can customize your own beautiful memes and share them with your friends or loved ones!
 
-![demo](./my_meme_generator_demo.gif)
+![demo](./resources/my_meme_generator_demo.gif)
 
 ## Overview
 The meme generator is a multimedia application to dynamically generate memes, including an image with an overlaid quote. 
