@@ -147,7 +147,7 @@ First, clone this repository to create a local copy on your computer.
 git clone https://github.com/jonathanyeh0723/meme-generator
 ```
 
-Next
+Next, create an isolated virtual environment for this project (in this example: meme-env)
 ```
 python3 -m venv meme-env
 ```
