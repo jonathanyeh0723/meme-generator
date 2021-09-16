@@ -179,7 +179,7 @@ We're all set! Now we can navigate to the main folder to start testing.
 $ cd src/
 ```
 
-#### Test for QuoteEngine module:
+#### Test for QuoteEngine module
 ```
 $ python3 QuoteEngine_test.py
 ```
@@ -198,6 +198,19 @@ Test for Ingestor:
 [<"Treat yo self" ,  Fluffles>, <"Life is like a box of treats" ,  Forrest Pup>, <"It's the size of the fight in the dog" ,  Bark Twain>]
 Using ./_data/DogQuotes/DogQuotesPDF.pdf
 ```
+
+#### Test for MemeEngine module
+```
+$ sh MemeEngine_test.sh
+```
+We should be able to see something like below:
+```
+Test MemeEngine with defaults.
+./tmp/299769.png
+Test MemeEngine with arguments added.
+./tmp/578978.png
+```
+In addition,
 
 ### Deploy
 
