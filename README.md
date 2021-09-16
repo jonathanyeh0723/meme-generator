@@ -238,7 +238,7 @@ positional arguments:
 optional arguments:
   -h, --help  show this help message and exit
 ```
-For instance, let’s have an overview for the photos we have:
+For instance, let’s have an overview for all the photos we have:
 ```
 $ python3 PlotEngine_test.py 'all_photos'
 Number of images: 12
