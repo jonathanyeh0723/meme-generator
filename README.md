@@ -298,6 +298,8 @@ Parents:
 [ Print Info ] Dog label detected: True
 ```
 
+![ai_xander](AIEngine_test_xander.jpg)
+
 Let's pick a cat photo for testing.
 ```
 python3 AIEngine_test.py 'neymar_4.jpeg' 'Cat'
