@@ -115,7 +115,7 @@ What is Amazon Rekognition?
  - It is based on the highly scalable, deep learning technology developed by Amazon’s computer vision scientists to analyze billions of images and videos daily.
  - That way, it requires no machine learning expertise to use. We don’t need to handle complex AI infrastructure or deal with time-consuming model training.
 
-In this case, we use its powerful AI identification for image inference, label detection, and draw the bounding box around the target object. 
+In this case, we use its powerful AI identification for image inference, label detection, and draw the bounding box around the specific object. 
 
 ![detect_example](./detect_label_example.jpg)
 
