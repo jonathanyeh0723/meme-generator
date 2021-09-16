@@ -121,7 +121,14 @@ def meme_post():
 @app.route('/email', methods=['Get'])
 def email_form():
     """User input for sending image email."""
-    return render_template('email_form.html')
+    subprocess.call(["ls -lt ./static > images.txt"], shell=True)
+    with open('images.txt', 'r') as f:
+        for line in f:
+            if line.startswith('-'):
+                last_img = line.split(' ')[-1].strip('\n')
+                break
+
+    return render_template('email_form.html', img_var=str(last_img))
 
 
 @app.route('/email', methods=['POST'])
