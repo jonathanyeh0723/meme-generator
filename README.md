@@ -162,6 +162,9 @@ $ source meme-env/bin/activate
 
 After that, using following commands to install all the python packages are required to run this app.
 ```
+$ cd src/
+```
+```
 $ pip install -r requirements.txt
 ```
 
@@ -179,7 +182,7 @@ Default output format [None]: json
 
 We're all set! Now we can navigate to the src folder to start testing.
 ```
-$ cd src/
+
 ```
 
 ### Test for QuoteEngine module
