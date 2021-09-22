@@ -180,7 +180,7 @@ Default output format [None]: json
 
 ### Test
 
-We're all set! Now we can start testing.
+We're all set! Now we can start testing the modules.
 
 ### Test for QuoteEngine module
 ```
