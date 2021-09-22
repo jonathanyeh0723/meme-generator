@@ -160,7 +160,7 @@ Once the virtual environment was created, you can activate it.
 $ source meme-env/bin/activate
 ```
 
-After that, using following commands to install all the python packages are required to run this app.
+After that, navigate to the src folder and use following commands to install all the python packages required to run this app.
 ```
 $ cd src/
 ```
@@ -180,10 +180,7 @@ Default output format [None]: json
 
 ### Test
 
-We're all set! Now we can navigate to the src folder to start testing.
-```
-
-```
+We're all set! Now we can start testing.
 
 ### Test for QuoteEngine module
 ```
