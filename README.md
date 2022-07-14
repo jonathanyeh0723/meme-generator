@@ -170,6 +170,12 @@ $ pip install -r requirements.txt
 
 Further, we need to configure basic settings that the AWS Command Line Interface (AWS CLI) uses to interact with AWS API.
 The following example shows sample values. **Replace them with your own values** as described in the following sections.
+
+Note that if encountered `Command 'aws' not found`, you can install aws cli with following:
+```
+sudo apt install awscli
+```
+
 ```
 $ aws configure
 AWS Access Key ID [None]: AKIAIOSFODNN7EXAMPLE
