@@ -171,17 +171,17 @@ $ pip install -r requirements.txt
 Further, we need to configure basic settings that the AWS Command Line Interface (AWS CLI) uses to interact with AWS API.
 The following example shows sample values. **Replace them with your own values** as described in the following sections.
 
-*Note that if you encounter `Command 'aws' not found` message, you can install aws cli with following:
-```
-$ sudo apt install awscli
-```
-
 ```
 $ aws configure
 AWS Access Key ID [None]: AKIAIOSFODNN7EXAMPLE
 AWS Secret Access Key [None]: wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
 Default region name [None]: us-west-2
 Default output format [None]: json
+```
+
+*Note that if you encounter `Command 'aws' not found` message, you can install aws cli with following:
+```
+$ sudo apt install awscli
 ```
 
 ### Test
@@ -255,7 +255,7 @@ Data visualization for images: ['xander_1.jpg', 'xander_2.jpg', 'xander_3.jpg', 
 ```
 ![all_photos](./resources/all_photos.png)
 
-*Note that if you see some warning messages like `PlotEngine.py:33: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.`,and can not display images as expect, you can fix it by running command below:
+*Note that if you see some warning messages like `PlotEngine.py:33: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.`, and can not display images as expect, you can fix it by running command below:
 ```
 $ sudo apt-get install python3-tk
 ```
