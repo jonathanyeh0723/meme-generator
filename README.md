@@ -162,7 +162,7 @@ $ source meme-env/bin/activate
 
 After that, navigate to the src folder and use following commands to install all the python packages required to run this app.
 ```
-$ cd src/
+$ cd meme-generator/
 ```
 ```
 $ pip install -r requirements.txt
