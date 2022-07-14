@@ -36,7 +36,7 @@ This [overengineering](https://en.wikipedia.org/wiki/Overengineering) solution c
 
  - **AI Engine**: The `AI Engine` is responsible for object detection. It leverage [Amazon Rekognition](https://aws.amazon.com/rekognition/?nc1=h_ls&blog-cards.sort-by=item.additionalFields.createdDate&blog-cards.sort-order=desc) to identify the image content and define rules to choose the quote category.
 
- - **Meme App**: The main function of meme generator `app.py`. This is where the backend Flask function defined to communicate with frontend web page.
+ - **Meme App**: The main function of meme generator `main.py`. This is where the backend Flask function defined to communicate with frontend web page.
  - **Meme Generator**: The web browser based meme generator application.
 
 ## QuoteEngine
@@ -171,9 +171,9 @@ $ pip install -r requirements.txt
 Further, we need to configure basic settings that the AWS Command Line Interface (AWS CLI) uses to interact with AWS API.
 The following example shows sample values. **Replace them with your own values** as described in the following sections.
 
-Note that if encountered `Command 'aws' not found`, you can install aws cli with following:
+*Note that if you encounter `Command 'aws' not found` message, you can install aws cli with following:
 ```
-sudo apt install awscli
+$ sudo apt install awscli
 ```
 
 ```
@@ -254,6 +254,12 @@ Number of images: 12
 Data visualization for images: ['xander_1.jpg', 'xander_2.jpg', 'xander_3.jpg', 'xander_4.jpg', 'neymar_1.jpg', 'neymar_2.jpg', 'neymar_3.jpeg', 'neymar_4.jpeg', 'iceland_1.jpeg', 'iceland_2.jpeg', 'iceland_3.jpeg', 'iceland_4.jpeg']
 ```
 ![all_photos](./resources/all_photos.png)
+
+*Note that if you see some warning messages like `PlotEngine.py:33: UserWarning: Matplotlib is currently using agg, which is a non-GUI backend, so cannot show the figure.`,and can not display images as expect, you can fix it by running command below:
+```
+$ sudo apt-get install python3-tk
+```
+This issue can be traced back to [this stack overflow post](https://stackoverflow.com/questions/56656777/userwarning-matplotlib-is-currently-using-agg-which-is-a-non-gui-backend-so)
 
 ### Test for AIEngine module
 Run AIEngine_test.py with `--help` to see what argument needed to specify.
@@ -423,7 +429,7 @@ Parents:
 
 Now we have tested all the modules built and confirmed the functionality. It’s time to deploy to web for interactive usage. Run following commands:
 ```
-$ python3 app.py 
+$ python3 main.py 
  * Serving Flask app 'app' (lazy loading)
  * Environment: production
    WARNING: This is a development server. Do not use it in a production deployment.
