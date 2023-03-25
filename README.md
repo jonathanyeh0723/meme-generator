@@ -188,7 +188,7 @@ Default output format [None]: json
 ```
 
 For more information with regards to AWS settings, you can visit the following links:
--	[AWS Account and Access Keys]( https://docs.aws.amazon.com/powershell/latest/userguide/pstools-appendix-sign-up.html)
+-	[AWS Account and Access Keys]( https://docs.aws.amazon.com/powershell/latest/userguide/pstools-appendix-sign-up.html). It is important to note that *if you lose or forget your secret key, you cannot retrieve it. Instead, you will need to create a new access key and make the old one **inactive***.
 -	[Alternative naming schemes for AWS regions](https://gist.github.com/colinvh/14e4b7fb6b66c29f79d3).
 
 *Note that if you encounter `Command 'aws' not found` message, you can install aws cli with following:
