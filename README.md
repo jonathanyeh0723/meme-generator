@@ -1,6 +1,6 @@
 # Meme-Generator
 
-[![Build Status](https://travis-ci.org/python/pythondotorg.svg?branch=main)](https://travis-ci.org/python/pythondotorg)
+[![Project_Version](https://img.shields.io/badge/version-2023.1-blue)](PROJECT)
 [![Documentation Status](https://readthedocs.org/projects/pythondotorg/badge/?version=latest)](https://pythondotorg.readthedocs.io/?badge=latest)
 [![Apache License Version 2.0](https://img.shields.io/badge/license-Apache_2.0-green.svg)](LICENSE)
 
@@ -168,8 +168,16 @@ $ cd meme-generator/src
 $ pip install -r requirements.txt
 ```
 
+If below error message is reflected, try `pip install -U setuptools` for debugging. This issue can be reference to [this GitHub issue]( https://github.com/python-openxml/python-docx/issues/594).
+
+```
+  error: invalid command 'bdist_wheel'
+  ----------------------------------------
+  ERROR: Failed building wheel for python-docx
+```
+
 Further, we need to configure basic settings that the AWS Command Line Interface (AWS CLI) uses to interact with AWS API.
-The following example shows sample values. **Replace them with your own values** as described in the following sections.
+The following example shows sample values. $\textcolor{red}{\textsf{Replace them with your own values}}$ as described in the following sections.
 
 ```
 $ aws configure
