@@ -187,6 +187,10 @@ Default region name [None]: us-west-2
 Default output format [None]: json
 ```
 
+For more information with regards to AWS settings, you can visit the following links:
+-	[AWS Account and Access Keys]( https://docs.aws.amazon.com/powershell/latest/userguide/pstools-appendix-sign-up.html)
+-	[Alternative naming schemes for AWS regions](https://gist.github.com/colinvh/14e4b7fb6b66c29f79d3).
+
 *Note that if you encounter `Command 'aws' not found` message, you can install aws cli with following:
 ```
 $ sudo apt install awscli
